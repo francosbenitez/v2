@@ -1,4 +1,4 @@
 *In progress*
 
-- [X] Crear imagen social (la imagen que aparece cuando se comparte la página). 
-- [ ] Crear ícono. 
+- [X] Create social image (the image that appears when the website is shared). 
+- [ ] Create icon. 
