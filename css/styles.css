@@ -2,10 +2,11 @@
     text-align: center;
     align-content: center;
     font-family: 'Inter', sans-serif;
-  }
+}
 
 .page-footer {
-  background-color: #2079c7;
-  color: white;
-  font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color: #2079c7;
+    color: white;
+    font-family: 'Inter', sans-serif;
 }
