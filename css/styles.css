@@ -62,6 +62,12 @@ a:hover {
 }
 
 /*---------- General styling ----------*/
+body {
+  opacity: 1;
+  transition: 1s opacity;
+  background-color: #f5f5f5;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -127,7 +133,16 @@ a:hover {
 }
 
 .card-title {
+  color: #000000;
   font-size: 20px;
+  font-family: 'Inter';
+  font-weight: 700;
+}
+
+.card-text {
+  color: #000000;
+  font-family: 'Inter';
+  font-weight: 400;
 }
 
 .card-additional-text {
