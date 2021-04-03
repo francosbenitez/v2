@@ -1,24 +1,67 @@
-/* general styling */
-body {
-  opacity: 1;
-  transition: 1s opacity;
-  background-color: #f5f5f5;
+/*---------- presentation ----------*/
+.title {
+  font-family: 'Inter';
+  font-weight: 900;
+  color: #2079c7;
+  font-size: 5vw;
+  text-align: center;
+  position: relative;
+  margin-bottom: 0rem;
 }
 
-body.fade-out {
-  opacity: 0;
-  transition: none;
+.subtitle {
+  font-family: 'Inter';
+  font-weight: 100;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.2;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.introduction {
+  line-height: 1.2;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 140%;
+  width: 50vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0%;
+  text-align: center;
+  font-size: 18px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.social-icons {
+  text-align: center;
+  index: 500;
+}
+
+.social-icons i:hover {
+  transform: scale(1.20);
+}
+
+/*---------- Linking styling ----------*/
+u {
+  color: #1155cc;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 a {
-  color: inherit;
+  color: #1155cc;
 }
 
 a:hover {
   text-decoration: none;
-  color: #2079c7;
+  color: #1155cc;
 }
 
+/*---------- General styling ----------*/
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -32,7 +75,7 @@ a:hover {
   margin-right: -15px;
 }
 
-/* jumbotron */
+/*---------- Jumbotron ----------*/
 .jumbotron {
   position: relative;
   top: 50%;
@@ -46,72 +89,7 @@ a:hover {
   background-color: transparent !important
 }
 
-.display-4 {
-  font-family: 'Inter';
-  font-size: 5vw;
-  text-align: center;
-  position: relative;
-  margin-bottom: 0rem;
-}
-
-#thin-text {
-  font-weight: 100;
-}
-
-#thick-text {
-  font-family: 'Inter';
-  font-weight: 900;
-  color: #2079c7;
-}
-
-.title {
-  font-family: 'Inter';
-  font-weight: 100;
-  margin-right: auto;
-  margin-left: auto;
-  line-height: 1.2;
-  font-size: 2vw;
-  text-align: center;
-}
-
-.intro {
-  font-family: 'Inter';
-  font-weight: 400;
-  line-height: 140%;
-  width: 50vw;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 0%;
-  text-align: center;
-  font-size: 18px;
-}
-
-.resume {
-  font-family: 'Inter';
-  line-height: 140%;
-  width: 50vw;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 0%;
-  text-align: center;
-  font-size: 18px;
-}
-
-.social-icons {
-  text-align: center;
-  index: 500;
-  color: #2079c7;
-}
-
-.social-icons i:hover {
-  color: #034C4C;
-}
-
-i {
-  margin-right: 10px;
-}
-
-/* cards */
+/*---------- Cards ----------*/
 .card {
   box-shadow:
     -webkit-transition: box-shadow 0.6s linear;
@@ -158,40 +136,44 @@ i {
   padding-top: 10px;
 }
 
-/* footer */
+/*---------- Footer ----------*/
 .page-footer {
   background-color: #2079c7;
   color: white;
   font-family: 'Inter';
 }
 
-/* media queries */
+/*---------- Media queries ----------*/
 @media only screen and (max-width: 731px) {
-  .display-4 {
-    font-size: 12vw;
-    line-height: 12vw;
-  }
-
   .title {
-    font-size: 6vw;
+    font-size: 12vw;
+    line-height: 1.2;
   }
 
-  .intro {
+  .subtitle {
+    font-size: 6vw;
+    line-height: 1.2;
+  }
+
+  .introduction {
     width: 100%;
+    line-height: 1.2;
   }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .display-4 {
-    font-size: 10vw;
-    line-height: 10vw;
-  }
-
   .title {
-    font-size: 5vw;
+    font-size: 10vw;
+    line-height: 1.2;
   }
 
-  .intro {
+  .subtitle {
+    font-size: 5vw;
+    line-height: 1.2;
+  }
+
+  .introduction {
     width: 80%;
+    line-height: 1.2;
   }
 }
