@@ -2,9 +2,10 @@
 .title {
   font-family: 'Inter';
   font-weight: 900;
-  color: #2079c7;
   font-size: 5vw;
+  line-height: 1.2;
   text-align: center;
+  color: #2079c7;
   position: relative;
   margin-bottom: 0rem;
 }
@@ -12,24 +13,23 @@
 .subtitle {
   font-family: 'Inter';
   font-weight: 100;
+  font-size: 2vw;
+  line-height: 1.2;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
-  line-height: 1.2;
-  font-size: 2vw;
-  text-align: center;
 }
 
 .introduction {
-  line-height: 1.2;
   font-family: 'Inter';
   font-weight: 400;
+  font-size: 18px;
   line-height: 140%;
-  width: 50vw;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
   margin-top: 0%;
-  text-align: center;
-  font-size: 18px;
+  width: 50vw;
 }
 
 i {
@@ -38,7 +38,6 @@ i {
 
 .social-icons {
   text-align: center;
-  index: 500;
 }
 
 .social-icons i:hover {
