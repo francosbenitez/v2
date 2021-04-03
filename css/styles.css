@@ -146,7 +146,7 @@ body {
 }
 
 .card-additional-text {
-  font-style: oblique;
+  font-style: 'Inter';
   font-size: 10px;
   padding-top: 10px;
 }
