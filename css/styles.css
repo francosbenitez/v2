@@ -34,7 +34,7 @@
 
 i {
   margin-right: 10px;
-  color: #2079c7;
+  color: #000000;
 }
 
 .social-icons {
@@ -147,10 +147,8 @@ body {
 
 /*---------- Footer ----------*/
 .page-footer {
-  background-color: #2079c7;
-  color: white;
-  font-family: 'Inter';
-  font-weight: 500;
+  color: #000000;
+  font-family: 'Roboto';
 }
 
 /*---------- Media queries ----------*/
